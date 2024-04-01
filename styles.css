@@ -1,0 +1,212 @@
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.top-background {
+    background-color: #ff6f00;
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 500px;
+    padding-top: 50px;
+}
+
+.top-background h2 {
+    color: white;
+    margin: 0;
+    font-size: 36px;
+}
+
+.top-background h2, .top-background p {
+    color: white;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.input-group {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-btn {
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #5e5e5e;
+    text-decoration: none;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.social-button {
+    flex: 1;
+    margin: 2px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-button.facebook {
+    background: #3b5998;
+    color: white;
+    border: none;
+}
+
+.social-button.github {
+    background: #333;
+    color: white;
+    border: none;
+}
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    /* Adjust the styles for tablets here. */
+  
+   .top-background {
+      padding-left: 50px;
+    }
+  
+   .login-container {
+      width: 80%;
+      max-width: 400px;
+    }
+  
+   .input-group input {
+      font-size: 16px;
+    }
+  
+   .login-btn {
+      font-size: 18px;
+    }
+  }
+  @media only screen and (min-width: 320px) and (max-width: 374px) {
+    /* Adjust the styles for Mobile S devices here. */
+  
+   .top-background {
+      padding-left: 10px;
+    }
+  
+   .login-container {
+      width: 90%;
+      max-width: 300px;
+    }
+  
+   .input-group input {
+      font-size: 12px;
+    }
+  
+   .login-btn {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 375px) and (max-width: 424px) {
+    /* Adjust the styles for Mobile M devices here. */
+  
+   .top-background {
+      padding-left: 20px;
+    }
+  
+   .login-container {
+      width: 90%;
+      max-width: 350px;
+    }
+  
+   .input-group input {
+      font-size: 14px;
+    }
+  
+   .login-btn {
+      font-size: 16px;
+    }
+  }
+  @media only screen and (min-width: 425px) and (max-width: 767px) {
+    /* Adjust the styles for Mobile L devices here. */
+  
+   .top-background {
+      padding-left: 30px;
+    }
+  
+   .login-container {
+      width: 80%;
+      max-width: 400px;
+    }
+  
+   .input-group input {
+      font-size: 16px;
+    }
+  
+   .login-btn {
+      font-size: 18px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    /* Adjust the styles for laptops here. */
+  
+   .top-background {
+      padding-left: 500px;
+    }
+  
+   .login-container {
+      width: 60%;
+      max-width: 600px;
+    }
+  
+   .input-group input {
+      font-size: 18px;
+    }
+  
+   .login-btn {
+      font-size: 20px;
+    }
+  }
